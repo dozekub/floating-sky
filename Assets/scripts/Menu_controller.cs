@@ -15,7 +15,7 @@ public class Menu_controller : MonoBehaviour {
 
 	public static int player_number;
 	public static int bestSocre;
-	public Text BestScore;
+	public Text bestScoreText;
 
 	// Use this for initialization
 	void Start () {
@@ -23,7 +23,8 @@ public class Menu_controller : MonoBehaviour {
 		slider_menu = GameObject.Find ("slider");
 		player_number = 1;
 		offsetTransform = 180f;// / 2.812102f; // different position each Slider 
-		BestScore.text = loadHighScore ().ToString ();
+		bestSocre = loadHighScore ();
+		bestScoreText.text = bestSocre.ToString ();
 	}
 	
 	public void  DragStart(){
