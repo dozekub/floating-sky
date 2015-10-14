@@ -11,6 +11,7 @@ public class Menu_controller : MonoBehaviour {
 	private AudioSource audioSource;
 	private float offsetTransform;
 	private GameObject slider_menu;
+	private RectTransform rectTransform;
 
 	public static int player_number;
 	public static int bestSocre;
@@ -21,7 +22,7 @@ public class Menu_controller : MonoBehaviour {
 
 		slider_menu = GameObject.Find ("slider");
 		player_number = 1;
-		offsetTransform = 180f / 2.812102f; // different position each Slider 
+		offsetTransform = 180f;// / 2.812102f; // different position each Slider 
 		BestScore.text = loadHighScore ().ToString ();
 	}
 	
@@ -36,7 +37,9 @@ public class Menu_controller : MonoBehaviour {
 		if (dragEnd.x < dragStart.x) {
 			if (player_number != 5) {
 				player_number++;
-				slider_menu.transform.position = new Vector3(slider_menu.transform.position.x-(offsetTransform),slider_menu.transform.position.y,slider_menu.transform.position.z);
+
+				rectTransform = slider_menu.GetComponent<RectTransform>();
+				rectTransform.anchoredPosition = new Vector2(rectTransform.anchoredPosition.x-(offsetTransform),rectTransform.anchoredPosition.y);
 				//sumpoint +=  15;
 				//point.text = sumpoint.ToString();
 			}
@@ -44,7 +47,10 @@ public class Menu_controller : MonoBehaviour {
 		} else if (dragEnd.x > dragStart.x) {
 			if (player_number != 1) {
 				player_number--;
-				slider_menu.transform.position = new Vector3(slider_menu.transform.position.x+(offsetTransform),slider_menu.transform.position.y,slider_menu.transform.position.z);
+
+				rectTransform = slider_menu.GetComponent<RectTransform>();
+				rectTransform.anchoredPosition = new Vector2(rectTransform.anchoredPosition.x+(offsetTransform),rectTransform.anchoredPosition.y);
+
 				//sumpoint -= 15;
 				//point.text = sumpoint.ToString();
 			}
