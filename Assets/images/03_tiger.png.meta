@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 7a23339577d14a74aa5780a6359aeec0
-timeCreated: 1444826892
+timeCreated: 1445004407
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -70,8 +70,8 @@ TextureImporter:
         y: 65
         width: 319
         height: 192
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .474971652, y: .43242678}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tiger_right
       rect:
@@ -80,8 +80,8 @@ TextureImporter:
         y: 65
         width: 256
         height: 188
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .344061852, y: .446914673}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tiger_left
       rect:
@@ -90,8 +90,8 @@ TextureImporter:
         y: 65
         width: 248
         height: 193
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .588532507, y: .432776958}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: db4b4ef46b8c3674593bb1ad74d3bda7
-timeCreated: 1444826721
+timeCreated: 1445004370
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -70,8 +70,8 @@ TextureImporter:
         y: 62
         width: 311
         height: 194
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .464700878, y: .427979052}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: panda_right
       rect:
@@ -80,18 +80,18 @@ TextureImporter:
         y: 62
         width: 272
         height: 191
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .386256933, y: .432073057}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: panda_left
       rect:
         serializedVersion: 2
-        x: 897
+        x: 898
         y: 66
         width: 248
         height: 191
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .584508598, y: .41117245}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

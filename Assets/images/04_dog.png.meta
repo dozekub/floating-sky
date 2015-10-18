@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 9e082008a18dfea4e97327e34380faba
-timeCreated: 1444826972
+timeCreated: 1445004443
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -70,8 +70,8 @@ TextureImporter:
         y: 63
         width: 321
         height: 198
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .459582359, y: .46471706}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dog_right
       rect:
@@ -80,8 +80,8 @@ TextureImporter:
         y: 63
         width: 279
         height: 183
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .37480247, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dog_left
       rect:
@@ -90,8 +90,8 @@ TextureImporter:
         y: 63
         width: 255
         height: 199
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .550878406, y: .45987913}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
